@@ -106,7 +106,7 @@ public class PdfConverterGetImage2 extends Activity {
 					response = obj.getImage(outputPath, pageNumber,
 							imageFormat, saveLocation);
 					if (response) {
-						result.append("Image is converted and downloaded in 'SaasposeConvertedFiles' folder in SDCard");
+						result.append("Image is converted and downloaded in 'AsposeConvertedFiles' folder in SDCard");
 					} else {
 						result.append("Oops..Something went wrong");
 					}

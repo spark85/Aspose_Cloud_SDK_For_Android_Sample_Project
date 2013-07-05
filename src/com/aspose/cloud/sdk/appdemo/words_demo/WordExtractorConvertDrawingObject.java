@@ -82,7 +82,7 @@ public class WordExtractorConvertDrawingObject extends Activity {
 					response = obj.convertDrawingObject(FileName, index,
 							renderformat, outputPath);
 					if (response) {
-						result.append("Drawing Object converted and downloaded in 'SaasposeConvertedFiles' folder Successfully");
+						result.append("Drawing Object converted and downloaded in 'AsposeConvertedFiles' folder Successfully");
 					} else {
 						result.append("Oops..Something went wrong");
 					}

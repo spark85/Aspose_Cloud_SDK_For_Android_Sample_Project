@@ -93,7 +93,7 @@ public class WordConverterConvertLocalFile1 extends Activity {
 					try {
 						obj.convertLocalFile(inputPath, outputPath,
 								outputFormat);
-						result.setText("file converted and downloaded in 'SaasposeConvertedFiles' folder in to your SDCard");
+						result.setText("file converted and downloaded in 'AsposeConvertedFiles' folder in to your SDCard");
 					} catch (Exception e) {
 						Toast.makeText(WordConverterConvertLocalFile1.this,
 								"Error Occrued while perfroming this task",

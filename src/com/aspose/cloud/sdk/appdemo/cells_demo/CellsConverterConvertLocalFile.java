@@ -94,7 +94,7 @@ public class CellsConverterConvertLocalFile extends Activity {
 					try {
 						obj.convertLocalFile(inputPath, outputPath,
 								outputFormat);
-						result.setText("file converted and downloaded in 'SaasposeConvertedFile' folder in your sdcard");
+						result.setText("file converted and downloaded in 'AsposeConvertedFile' folder in your sdcard");
 					} catch (Exception e) {
 						result.append("Oops...Something went wrong");
 					}

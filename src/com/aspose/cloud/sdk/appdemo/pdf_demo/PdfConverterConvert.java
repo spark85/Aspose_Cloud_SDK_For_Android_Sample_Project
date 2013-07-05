@@ -78,7 +78,7 @@ public class PdfConverterConvert extends Activity {
 							.toString());
 					response = obj.convert(outputPath, saveFormat);
 					if (response) {
-						result.append("File converted and downloaded in 'SaasposeConvertedFiles' Folder in SDCard");
+						result.append("File converted and downloaded in 'AsposeConvertedFiles' Folder in SDCard");
 					} else {
 						result.append("Oops.. Something went wrong");
 					}

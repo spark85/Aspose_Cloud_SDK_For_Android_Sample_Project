@@ -59,7 +59,7 @@ public class StorageFolderGetFile extends Activity {
 							boolean flag = Folder.saveStreamToFile(fileName,
 									response);
 							if (flag) {
-								result.append("File is downloaded in 'SaasposeConvertedFiles' folder in your SDCard");
+								result.append("File is downloaded in 'AsposeConvertedFiles' folder in your SDCard");
 							} else {
 								result.append("File couldn't download");
 							}

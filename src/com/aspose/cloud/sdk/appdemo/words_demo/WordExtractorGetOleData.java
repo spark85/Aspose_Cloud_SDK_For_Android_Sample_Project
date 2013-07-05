@@ -82,7 +82,7 @@ public class WordExtractorGetOleData extends Activity {
 					response = obj.getoleData(FileName, index, renderformat,
 							outputPath);
 					if (response) {
-						result.append("Ole Object is converted and downloaded in 'SaasposeConvertedFiles' folder in SDCard");
+						result.append("Ole Object is converted and downloaded in 'AsposeConvertedFiles' folder in SDCard");
 					} else {
 						result.append("Oops..Something went wrong");
 					}

@@ -117,7 +117,7 @@ public class PdfExtractorGetImage1 extends Activity {
 					response = obj.getImage(outputPath, pageNumber, imageIndex,
 							imageFormat, saveLocation, imageHeight, imageWidth);
 					if (response) {
-						result.append("Image has converted and downloaded in 'SaasposeConvertedFiles' folder in SDCard");
+						result.append("Image has converted and downloaded in 'AsposeConvertedFiles' folder in SDCard");
 					} else {
 						result.append("Oops..Something went wrong");
 					}

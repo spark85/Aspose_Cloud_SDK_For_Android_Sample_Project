@@ -129,7 +129,7 @@ public class BarcodeBuilderSave1 extends Activity {
 						result.append("Oopss..Something went wrong");
 					} else {
 						if (response.getStatus().equals("OK")) {
-							result.append("File Is Saved In Folder 'SaasposeCovertedFiles' in your SDCard with name '"
+							result.append("File Is Saved In Folder 'AsposeCovertedFiles' in your SDCard with name '"
 									+ function_arg2.getText() + "'");
 						}
 

@@ -106,7 +106,7 @@ public class PdfExtractorGetImage2 extends Activity {
 							.toString());
 					obj.getImage(outputPath, pageNumber, imageIndex,
 							imageFormat, saveLocation);
-					result.append("Image has converted and downloaded in 'SaasposeConvertedFiles' folder in SDCard");
+					result.append("Image has converted and downloaded in 'AsposeConvertedFiles' folder in SDCard");
 
 				}
 			}

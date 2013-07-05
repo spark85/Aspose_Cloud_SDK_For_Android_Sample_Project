@@ -52,7 +52,7 @@ public class WordExtractorGetDrawingObjects extends Activity {
 					Extractor obj = new Extractor();
 					try {
 						obj.getDrawingObjects(FileName, outputPath);
-						result.setText("All Drawing Objects are downloaded in 'SaasposeConvertedFiles' folder in your SDCard ");
+						result.setText("All Drawing Objects are downloaded in 'AsposeConvertedFiles' folder in your SDCard ");
 					} catch (Exception e) {
 						result.append("Oops..Something went wrong");
 					}

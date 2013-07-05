@@ -53,7 +53,7 @@ public class WordExtractorGetDrawingObject extends Activity {
 					Extractor obj = new Extractor();
 					response = obj.getDrawingObject(strURI, outputPath);
 					if (response) {
-						result.append("Drawing image downloaded in 'SaasposeConvertedFiles' folder in SDCard");
+						result.append("Drawing image downloaded in 'AsposeConvertedFiles' folder in SDCard");
 					} else {
 						result.append("Oops..Something went wrong");
 					}

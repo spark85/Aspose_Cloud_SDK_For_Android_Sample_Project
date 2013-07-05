@@ -75,7 +75,7 @@ public class CellsConverterSave extends Activity {
 					Converter obj = new Converter(constructor_arg1.getText().toString(), constructor_arg2.getText().toString());
 					response = obj.save(outputFileName, outputFormat);
 					if(response){
-						result.append("File converted and downloaded in 'SaasposeConvertedFiles' folder in SDCard");
+						result.append("File converted and downloaded in 'AsposeConvertedFiles' folder in SDCard");
 					}else{
 						result.append("Ooops.. Something went wrong");
 					}

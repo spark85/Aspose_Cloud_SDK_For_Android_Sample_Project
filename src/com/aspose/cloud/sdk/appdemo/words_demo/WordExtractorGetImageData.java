@@ -82,7 +82,7 @@ public class WordExtractorGetImageData extends Activity {
 					response = obj.getimageData(FileName, index, renderformat,
 							outputPath);
 					if (response) {
-						result.append("Image is downloaded in 'SaasposeConvertedFiles' in SDCard");
+						result.append("Image is downloaded in 'AsposeConvertedFiles' in SDCard");
 					} else {
 						result.append("Oops..Something went wrong");
 					}

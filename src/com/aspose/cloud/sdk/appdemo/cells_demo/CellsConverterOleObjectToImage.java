@@ -85,7 +85,7 @@ public class CellsConverterOleObjectToImage extends Activity {
 					response = obj.oleObjectToImage(index, outputFileName,
 							outputformat);
 					if(response){
-						result.append("Ole object converted and downloaded in 'SaasposeConvertedFiles' in SDCard");
+						result.append("Ole object converted and downloaded in 'AsposeConvertedFiles' in SDCard");
 					}
 					else{
 						result.append("Oops.. Something went wrong");

@@ -93,7 +93,7 @@ public class WordConverterConvertLocalFile2 extends Activity {
 						boolean flag = Folder.saveStreamToFile(function_arg1
 								.getText().toString(), inputStream);
 						if (flag) {
-							result.append("Document Converted and Downloaded in 'SaasposeConvertedFiles' folder in to your SDCard");
+							result.append("Document Converted and Downloaded in 'AsposeConvertedFiles' folder in to your SDCard");
 						} else {
 							result.append("Oops.. Something went wrong");
 						}

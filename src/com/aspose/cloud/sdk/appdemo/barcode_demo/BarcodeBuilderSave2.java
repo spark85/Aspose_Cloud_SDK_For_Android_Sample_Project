@@ -112,7 +112,7 @@ public class BarcodeBuilderSave2 extends Activity {
 						Toast.makeText(BarcodeBuilderSave2.this,
 								"File Downloaded on your SDCard",
 								Toast.LENGTH_LONG).show();
-						result.setText("File Is Saved In Folder 'SaasposeCovertedFiles' in your SDCard with name 'myAndroidbarCode.jpeg' ");
+						result.setText("File Is Saved In Folder 'AsposeCovertedFiles' in your SDCard with name 'myAndroidbarCode.jpeg' ");
 					} else {
 						result.append("Oops...Something went wrong");
 					}
@@ -144,7 +144,7 @@ public class BarcodeBuilderSave2 extends Activity {
 			this.finish();
 		} else {
 			AsposeApp.setAppInfo(app_key, app_sid);
-			Product.setBaseProductUri("http://api.saaspose.com/v1.0");
+			Product.setBaseProductUri("http://api.Aspose.com/v1.0");
 		}
 	}
 }

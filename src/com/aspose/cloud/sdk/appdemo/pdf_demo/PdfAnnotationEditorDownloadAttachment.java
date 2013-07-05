@@ -58,7 +58,7 @@ public class PdfAnnotationEditorDownloadAttachment extends Activity {
 					response = obj.downloadAttachment(outputPath,
 							attachmentIndex);
 					if (response) {
-						result.append("Attachment has been downloaded in 'SaasposeConvertedFiles' in SDCard");
+						result.append("Attachment has been downloaded in 'AsposeConvertedFiles' in SDCard");
 					} else {
 						result.append("Oops...Something went wrong");
 					}

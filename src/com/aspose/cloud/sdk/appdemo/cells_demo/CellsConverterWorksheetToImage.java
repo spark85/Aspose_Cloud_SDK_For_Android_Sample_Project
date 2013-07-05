@@ -83,7 +83,7 @@ public class CellsConverterWorksheetToImage extends Activity {
 					response = obj.worksheetToImage(outputFileName,
 							outputFormat);
 					if (response) {
-						result.append("Worksheet converted and downloaded in 'SaasposeConvertedFiles' folder in SDCard");
+						result.append("Worksheet converted and downloaded in 'AsposeConvertedFiles' folder in SDCard");
 					} else {
 						result.append("Oops.. Something went wrong");
 					}

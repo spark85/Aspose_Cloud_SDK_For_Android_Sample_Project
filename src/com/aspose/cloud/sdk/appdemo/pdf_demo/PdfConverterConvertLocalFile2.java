@@ -97,7 +97,7 @@ public class PdfConverterConvertLocalFile2 extends Activity {
 						Converter obj = new Converter(constructor_arg1
 								.getText().toString());
 						obj.convertLocalFile(inputStream, outputFormat);
-						result.append("file has converted and downloaded in 'SaasposeConvertedFiles' folder in to your sdcard");
+						result.append("file has converted and downloaded in 'AsposeConvertedFiles' folder in to your sdcard");
 					} catch (FileNotFoundException e) {
 						// TODO Auto-generated catch block
 						result.append("Oops..Something went wrong");

@@ -83,7 +83,7 @@ public class CellsConverterChartToImage extends Activity {
 					response = obj.chartToImage(index, outputFileName,
 							outputformat);
 					if(response){
-						result.append("Chart is converted and downloaded in 'SaasposeConvertedFiles' in SDCard");
+						result.append("Chart is converted and downloaded in 'AsposeConvertedFiles' in SDCard");
 					}
 					else{
 						result.append("Oops.. Something went wrong");

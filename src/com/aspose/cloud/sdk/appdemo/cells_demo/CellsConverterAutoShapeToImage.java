@@ -85,7 +85,7 @@ public class CellsConverterAutoShapeToImage extends Activity {
 					response = obj.autoShapeToImage(index, outputFileName,
 							outputformat);
 					if (response) {
-						result.append("AutoShape is being Converted and downloaded in 'SaasposeConvertedFiles' folder in SDCard");
+						result.append("AutoShape is being Converted and downloaded in 'AsposeConvertedFiles' folder in SDCard");
 					} else {
 						result.append("Oops.. Something went wrong");
 					}

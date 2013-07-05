@@ -85,7 +85,7 @@ public class CellsConverterPictureToImage extends Activity {
 					response = obj.pictureToImage(index, outputFileName,
 							outputformat);
 					if (response) {
-						result.append("Picture is converted and downloaded in 'SaasposeConvertedFiles' in SDCard");
+						result.append("Picture is converted and downloaded in 'AsposeConvertedFiles' in SDCard");
 					} else {
 						result.append("Oops.. Something went wrong");
 					}
